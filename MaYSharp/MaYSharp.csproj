@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <LangVersion>8</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <NullableContextOptions>enable</NullableContextOptions>
+    <WarningsAsErrors>CS8600;CS8602;CS8603;CS8618</WarningsAsErrors>
+    <PackageVersion>1.0.0</PackageVersion>
+    <RootNamespace>MaY</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ICCSharp" Version="1.0.3" />
+  </ItemGroup>
+
+</Project>

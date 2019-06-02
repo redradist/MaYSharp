@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>7.2</LangVersion>
+    <RootNamespace>OpenElection</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MaY\MaY.csproj" />
+    <ProjectReference Include="..\TestApp\TestClient.csproj" />
+  </ItemGroup>
+
+</Project>
